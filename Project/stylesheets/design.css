@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,800);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+body {
+  font-family: Open Sans, sans-serif;
+  background-color: #121212;
+}
+
+body h1 {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  line-height: 1.3em;
+  font-size: 65px;
+  color: white;
+  z-index: 1000;
+}
+
+body #container {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 20px;
+}
+
+body #container .inner-pic img {
+  height: 701px;
+  width: 514.5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -350.5px;
+  margin-left: -257.25px;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}
+
+section.two {
+  background-color: white;
+  color: black;
+}
+
+section.two .square {
+  width: 490px;
+  height: 490px;
+  text-align: center;
+  margin: 0 auto;
+  border: solid 6px black;
+}
+
+section.two .square .inner {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+section.two .square .inner h1 {
+  color: black;
+  margin: 0;
+}
+
+section.three {
+  background-image: url("/Assets/strong.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.three .square {
+  width: 490px;
+  height: 490px;
+  text-align: center;
+  margin: 0 auto;
+  border: solid 32px white;
+}
+
+section.three .square .inner {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+section.three .square .inner h1 {
+  margin: 0;
+}
+
+section.four {
+  background-color: white;
+}
+
+section.four h1 {
+  margin: 0;
+}
