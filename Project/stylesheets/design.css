@@ -90,6 +90,8 @@ section.three .square .inner {
 
 section.three .square .inner h1 {
   margin: 0;
+  text-align: center;
+  height: 70%;
 }
 
 section.four {
@@ -97,5 +99,26 @@ section.four {
 }
 
 section.four h1 {
+  color: black;
   margin: 0;
+  text-align: right;
+}
+
+section.four .box {
+  float: right;
+  height: 100px;
+}
+
+section.four .box img {
+  width: 50%;
+}
+
+section.four .text {
+  width: 50%;
+  position: relative;
+  margin-right: 20px;
+}
+
+section.four .text .inner {
+  float: right;
 }

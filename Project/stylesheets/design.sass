@@ -1,4 +1,4 @@
-@import bourbon
+@import "bourbon/bourbon"
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800)
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,800)
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css)
@@ -76,23 +76,32 @@ section.three
     .inner
       @include vertical-align
 
+
       h1
         margin: 0
-
+        text-align: center
+        height: 70%
 
 section.four
   background-color: white
 
-    .box
-      width: 50%
-      float: left
-
-    .picture
-      width: 50vw
-
-
-
-
-
   h1
+    color: black
     margin: 0
+    text-align: right
+
+  .box
+    float: right
+    height: 100px
+
+
+
+    img
+      width: 50%
+
+  .text
+    width: 50%
+    position: relative
+    margin-right: 20px
+    .inner
+      float: right
